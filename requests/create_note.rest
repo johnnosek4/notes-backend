@@ -1,7 +1,9 @@
 POST http://localhost:3001/api/notes
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsdsfsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY3OWM0ZGVlOGVlMDM4NzkzMjZkNGU0NiIsImlhdCI6MTczODM2MjkyMn0.Y5b5wwWAxwpA4BjiPN50-_LMNwa3uXa6TL13bhAlW5g
 
 {
-    "content": "poo",
-    "important": true
+    "content": "scooby floob",
+    "important": true,
+    "userId": "679c4dee8ee03879326d4e46"
 }
